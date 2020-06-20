@@ -1,0 +1,105 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+
+.flower {
+  border-style: solid;
+  border-radius: 10px;
+  animation-name: test;
+}
+
+@keyframes test {
+  from {background-color:red}
+  to {background-color:blue}
+}
+  
+/* CSS layout */
+#masthead {
+	background-image: url('images/back.jpg');
+	background-attachment: fixed;
+	margin: 0px;
+	margin-bottom: 0px;
+}
+#top_nav {
+}
+#page_content {
+	border-color: #808000;
+	border: #800000;
+	color: #FF0000;
+	font-size: 100px;
+	font-family: "Javanese Text";
+	font-weight: 500;
+	font-style: normal;
+	vertical-align: bottom;
+	margin-left: auto;
+	text-align: center;
+	background-color: #DEB887;
+	outline-color: #0000FF;
+}
+#footer {
+}
+  
+.auto-style14 {
+	background: #008080;
+	text-align: center;
+	font-size: xx-large;
+	color: #FF0000;
+}
+.auto-style15 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+.auto-style3 {
+	border-color: #000000;
+	text-align: left;
+	font-size: medium;
+	
+	border-bottom-color: #000000;
+}
+.auto-style6 {
+	margin-top: 0px;
+}
+.auto-style16 {
+	font-size: xx-large;
+	color: #000000;
+	margin-left: 186px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	background-color: #000000;
+}
+
+a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+	background-color: #808000;
+}
+
+.mySlides {
+display:none;
+display: block;
+margin: 0 auto;
+}
